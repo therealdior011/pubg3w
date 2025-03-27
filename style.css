@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.language {
+    margin-right: 20px;
+}
+
+.play-btn {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.banner {
+    width: 1440px;
+    height: 797px;
+    top: 126px;
+    
+    position: relative;
+   
+    background: url(image\ 5.png) no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+.platform-buttons {
+    margin-top: 10px;
+}
+
+.pc-btn, .console-btn {
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pc-btn {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.console-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
